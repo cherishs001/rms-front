@@ -1,0 +1,32 @@
+.screen-container {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://blob.officehome.msocdn.com/images/content/images/fluent-background-sources/header-default-desktop-652cc04392.svg");
+  background-repeat: no-repeat; }
+
+.screen-line {
+  display: flex;
+  flex-wrap: wrap; }
+
+.screen-app {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px; }
+
+.screen-app:hover {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 10px; }
+
+.screen-app img {
+  width: 40px; }
+
+.screen-app span {
+  font-size: 14px;
+  color: #252423;
+  margin-top: 3px; }
+
